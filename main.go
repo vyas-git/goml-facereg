@@ -111,9 +111,6 @@ func readImage(name string) (image.Image, error) {
 
 	return img, nil
 }
-func Newfunc() int {
-	return 5
-}
 
 // cropImage takes an image and crops it to the specified rectangle.
 func cropImage(img image.Image, crop image.Rectangle) (image.Image, error) {
